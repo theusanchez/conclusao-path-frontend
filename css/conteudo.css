@@ -1,0 +1,22 @@
+.conteudo {
+    text-align: center;
+}
+.conteudo h2 {
+    font-size: 2.9em;
+    padding: 2.5% 1% 0% 1%;
+}
+.conteudo h3 {
+    font-size: 2em;
+    padding: 0 1% 0% 1%;
+}
+.conteudo p {
+    line-height: 2;
+    font-size: 1.2em;
+    padding: 0% 1% 1.5% 1%;
+}
+@media (min-width: 800px) {
+    .conteudo p {
+        line-height: 1.5;
+        padding: 0 2% 2% 2%;
+    }
+}

@@ -1,0 +1,42 @@
+.form-section {
+    padding: 2em 2em 2em 2em;
+}
+.form-section > h2 {
+    padding: 0 0 1em 0;
+    text-align: center;
+    color: #EF7246;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.formulario > label {
+    font-size: 20px;
+    font-weight: bold;
+}
+.formulario > input {
+    box-shadow: 1px 1px 11px 0px #48A3A6;
+    margin-top: 5px;
+    display: block;
+    width: 98%;
+    font-size: 18px;
+    height: 2em;
+    border-radius: 5px;
+    border-top: 1px solid gray;
+}
+#nome {
+    margin-bottom: 1em;
+}
+#botao-formulario {
+    color: white;
+    border-radius: 5px;
+    background-color: #48A3A6;
+    display: block;
+    padding: 1em 2em 1em 2em;
+    margin: 1em auto;
+    width: 75%;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 5px 4px 11px 0px rgba(0,0,0,0.6); 
+    /* box-shadow: -2px -2px 1px 1px rgba(21, 255, 0, 0.4);  */
+    text-decoration: none; 
+}

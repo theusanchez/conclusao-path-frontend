@@ -1,0 +1,90 @@
+header {
+    background-image: url("/img/destaque.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20em;
+    width: 100%;
+}
+@media (min-width: 600px) {
+    header {
+        height: 25em;
+    }
+    #ul-header > li {
+        transition: background-color 1.2s ease-out;
+    }
+    #ul-header > li:hover {
+        background-color: rgb(38, 80, 104)
+    }
+}
+@media (min-width: 800px) {
+    header {
+        height: 30em;
+    }
+    #ul-header > li:hover {
+        background-color: rgb(38, 80, 104)
+    }
+}
+header h1 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 3%;
+}
+header h2 {
+    color: rgb(0, 255, 0);
+    font-size: 3em;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 3%;
+}
+@media (min-width: 1060px) {
+    h1 {
+        font-size: 4.5em;
+    }
+    h2 {
+        font-size: 4em;
+    }
+    #ul-header li {
+        width: 13em;
+    }
+}
+#ul-header {
+    text-align: center;    
+
+}
+#ul-header > li {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 4%;
+    height: 2em;
+    line-height: 2;
+    font-weight: bold;
+    padding: 1% 5% 1% 5%;
+}
+
+#ul-header li > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+}
+
+#botao-header{
+    height: 4em;
+    width: 10em;
+    background-color: rgb(27, 147, 163);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10%;
+    border: 0px;
+    margin-top: 1.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 4;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, .2);
+}
